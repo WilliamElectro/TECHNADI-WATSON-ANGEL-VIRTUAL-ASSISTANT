@@ -12,6 +12,7 @@ Contexto y enfoque de la solución: La idea de Watson Angel, trata de poder brin
 # II. METODOLOGÍA 
 Watson Angel hace uso de la plataforma de IBM Cloud para su entrenamiento y encadenamiento con el mundo real. Se realizó un análisis de los puntos críticos que se generan tras un desastre natural, enfocándonos en la salubridad y asistencia de personas tras los incidentes. Durante el desarrollo del proyecto se implementó un blockchain explicado en la siguiente imagen. 
 
+<img src="https://github.com/WilliamElectro/TECHNADI-WATSON-ANGEL-VIRTUAL-ASSISTANT/master/7.png"/>
    
 Donde la capa superior y la única a la que tiene acceso el usuario “Messenger”, las conexiones se realizan entre Chatfuel y Node-Red hasta la capa más profunda la cual contiene a Watson Assistant y conversores de texto a voz y viceversa.
 
