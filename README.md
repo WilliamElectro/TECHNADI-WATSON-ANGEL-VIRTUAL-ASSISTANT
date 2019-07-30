@@ -24,3 +24,17 @@ Se obtuvo un muy buen primer prototipo, que reconoce e identifica lesiones comun
 
 # V. CONCLUSIONES 
 La combinación de herramientas existentes y de gran uso como Messenger permite abarcar un mayor publico que gracias a la integración en Node-Red de los servicios de IBM Cloud pueden realizar una conversación fluida con el objetivo de aumentar las manos que ayudan en algún tipo de eventualidad como son los desastres naturales.
+
+# REFERENCIAS
+1.	https://cloud.ibm.com/docs/services/assistant?topic=assistant-getting-started#getting-started-tutorial
+2.	https://www.efe.com/efe/espana/sociedad/la-onu-destaca-baja-mortalidad-por-desastres-en-2018-pero-alerta-sobre-el-nino/10004-3876923
+3.	https://www.efeverde.com/noticias/desastres-naturales-muertos-onu/
+4.	https://cadenaser.com/emisora/2016/10/16/radio_valladolid/1476616274_571625.html
+5.	https://www.efesalud.com/primer-minuto-salva-vidas-importancia-primeros-auxilios/
+6.	http://www.cruzrojacolombiana.org/noticias-y-prensa/aplicaci%C3%B3n-m%C3%B3vil-de-primeros-auxilios-la-nueva-apuesta-de-la-cruz-roja-colombiana
+7.	https://cloud.ibm.com/docs/tutorials?topic=solution-tutorials-android-watson-chatbot
+8.	https://cloud.ibm.com/apidocs/assistant
+9.	https://cloud.ibm.com/apidocs/speech-to-text
+10.	https://cloud.ibm.com/apidocs/text-to-speech
+11.	https://nodered.org/
+12.	https://dashboard.chatfuel.com/#/bots
