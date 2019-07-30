@@ -55,3 +55,19 @@ Luego, se deben crear y sincronizar los servicios de IBM CLOUD (Watson Assistant
 
 Una vez tengamos nuestro Flujo conectado a los servcios de IBM CLOUD, hacemos la debida conexion a ChatFuel  quien conectará nuestro Chatbot en Facebook Messenger con nuestra integración de servicios, pero para ello, debemos haber creado(y personalizado) una página en Facebook
 
+<img src="https://raw.github.com/WilliamElectro/TECHNADI-WATSON-ANGEL-VIRTUAL-ASSISTANT/master/Facebook.PNG"/>
+
+Esta página en Facebook, será sincronizada con ChatFuel la que a su vez llamará los flujos
+
+<img src="https://raw.github.com/WilliamElectro/TECHNADI-WATSON-ANGEL-VIRTUAL-ASSISTANT/master/Chatfuel.PNG"/>
+
+
+
+
+
+
+
+
+
+
+
