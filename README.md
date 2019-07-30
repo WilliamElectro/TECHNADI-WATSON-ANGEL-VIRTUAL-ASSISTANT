@@ -47,5 +47,7 @@ Se crea un flujo que permita integrar servicios provenientes de diversas fuentes
 
 El flujo recibe un enlace de messenger, se convierte a WAV, se envía a STT para su transcripción y se envía a Watson Assistant. Con la respuesta de Watson Assistant, use TTS para convertirlo a audio, convertir a MP3, almacenar en una sesión variable global y enviar un enlace a Facebook Messenger. Este flujo utiliza el nodo ffmpeg para convertir audio. Este flujo recibe el nombre y el apellido de Facebook y se envía al contexto dentro de WA.
 
-Luego, se deben crear y sincronizar los servicios de IBM CLOUD (Watson Assistant, TTS y SST)[Link del skill utilizado: ] con el flujo creado (Link para cargar el flujo en NODE-RED: ), esto se hace a través de las credenciales de cada API
+Luego, se deben crear y sincronizar los servicios de IBM CLOUD (Watson Assistant, TTS y SST)(Link del skill utilizado: https://github.com/WilliamElectro/TECHNADI-WATSON-ANGEL-VIRTUAL-ASSISTANT/blob/master/skill-P_Aux.json) con el flujo creado (Link para cargar el flujo en NODE-RED: https://github.com/WilliamElectro/TECHNADI-WATSON-ANGEL-VIRTUAL-ASSISTANT/blob/master/flows.json), esto se hace a través de las credenciales de cada API 
+
+<img scr="https://raw.github.com/WilliamElectro/TECHNADI-WATSON-ANGEL-VIRTUAL-ASSISTANT/blob/master/Credenciales.PNG"/>
 
