@@ -1,0 +1,3841 @@
+{
+  "name": "P_Aux",
+  "intents": [
+    {
+      "intent": "No_especifica_nada",
+      "examples": [
+        {
+          "text": "se encuentra lastimado"
+        },
+        {
+          "text": "está herida"
+        },
+        {
+          "text": "mi hermana esta lastimada"
+        },
+        {
+          "text": "mi hermano esta herido"
+        },
+        {
+          "text": "esta muy lastimado"
+        },
+        {
+          "text": "se encuentra muy mal"
+        }
+      ]
+    },
+    {
+      "intent": "RCP",
+      "examples": [
+        {
+          "text": "no responde"
+        },
+        {
+          "text": "ayuda esta inconsiente"
+        },
+        {
+          "text": "mi amigo esta inconsciente"
+        },
+        {
+          "text": "no respira hace poco"
+        },
+        {
+          "text": "no tiene signos vitales"
+        },
+        {
+          "text": "lleva varios minutos bajo el agua"
+        },
+        {
+          "text": "no responde y no respira"
+        },
+        {
+          "text": "adulto mayor"
+        },
+        {
+          "text": "no respira"
+        },
+        {
+          "text": "esta inconsciente sin respirar"
+        },
+        {
+          "text": "mi hijo estub mucho tiempo bajo el agua"
+        },
+        {
+          "text": "no tiene pulso"
+        }
+      ]
+    },
+    {
+      "intent": "Fin_de_la_Ayuda",
+      "examples": [
+        {
+          "text": "muchas gracias"
+        },
+        {
+          "text": "muchas gracias por todo"
+        },
+        {
+          "text": "ya esta estable muchas gracias"
+        },
+        {
+          "text": "ya dejo de sangrar"
+        },
+        {
+          "text": "Gracias, todo esta bien"
+        },
+        {
+          "text": "no gracias"
+        },
+        {
+          "text": "grahsia"
+        }
+      ]
+    },
+    {
+      "intent": "Hematoma",
+      "examples": [
+        {
+          "text": "tiene muchos golpes"
+        },
+        {
+          "text": "sufrió un fuerte golpe en la cara"
+        },
+        {
+          "text": "lo golpearon muy fuerte"
+        },
+        {
+          "text": "ayuda lo golpearon muy fuerte"
+        },
+        {
+          "text": "lo golpeo un objeto pesado"
+        },
+        {
+          "text": "tiene hematomas"
+        },
+        {
+          "text": "se golpeo la cabeza y veo un morado"
+        },
+        {
+          "text": "tiene morados en el cuerpo"
+        }
+      ]
+    },
+    {
+      "intent": "Aplastamiento",
+      "examples": [
+        {
+          "text": "le cayo un objeto pesado encima"
+        },
+        {
+          "text": "esta bajo los escombros"
+        },
+        {
+          "text": "tiene un árbol encima"
+        },
+        {
+          "text": "tiene un auto encima"
+        },
+        {
+          "text": "esta bajo un auto"
+        },
+        {
+          "text": "esta atrapado bajo un auto"
+        },
+        {
+          "text": "mi papa se ahoga"
+        },
+        {
+          "text": "tiene la mano atrapada bajo un auto"
+        },
+        {
+          "text": "tiene el pie atrapado bajo rocas"
+        },
+        {
+          "text": "esta bajo muchos ladrillos"
+        },
+        {
+          "text": "esta bajo mucho peso"
+        },
+        {
+          "text": "tiene una parte del cuerpo bajo escombros"
+        }
+      ]
+    },
+    {
+      "intent": "Info_del_asistente",
+      "examples": [
+        {
+          "text": "Solo escribo para saber sobre este asistente"
+        },
+        {
+          "text": "solo es una prueba"
+        },
+        {
+          "text": "quiero información del asistente"
+        },
+        {
+          "text": "no pasa nada solo es una prueba"
+        },
+        {
+          "text": "no solo estoy haciendo una prueba"
+        },
+        {
+          "text": "no, gracias esto es solo una prueba"
+        }
+      ],
+      "description": "da info de la app"
+    },
+    {
+      "intent": "Atrapado_y_herido",
+      "examples": [
+        {
+          "text": "no puedo sacarlo"
+        },
+        {
+          "text": "no puedo sacarlo del auto"
+        },
+        {
+          "text": "esta fuera de mi alcance"
+        },
+        {
+          "text": "atrapado dentro de la casa"
+        }
+      ]
+    },
+    {
+      "intent": "Tomar_el_Pulso",
+      "examples": [
+        {
+          "text": "como se toma el pulso"
+        },
+        {
+          "text": "No se tomar el pulso"
+        },
+        {
+          "text": "enséñame a tomar el pulso"
+        },
+        {
+          "text": "ayúdame a tomar el pulso"
+        },
+        {
+          "text": "como puedo tomar el pulso"
+        }
+      ]
+    },
+    {
+      "intent": "Hemorragia",
+      "examples": [
+        {
+          "text": "ayuda a detener o minimizar una hemorragia"
+        },
+        {
+          "text": "mucha sangre"
+        },
+        {
+          "text": "ayuda se esta desangrando"
+        },
+        {
+          "text": "esta desangrándose"
+        },
+        {
+          "text": "veo mucha sangre"
+        },
+        {
+          "text": "esta sangrando mucho"
+        },
+        {
+          "text": "se corto y esta sangrando"
+        },
+        {
+          "text": "ayuda a detener la hemorragia"
+        },
+        {
+          "text": "no para de sangrar"
+        },
+        {
+          "text": "no para de salir sangre"
+        }
+      ]
+    },
+    {
+      "intent": "Ayuda",
+      "examples": [
+        {
+          "text": "Ayuda"
+        },
+        {
+          "text": "Necesito ayuda"
+        },
+        {
+          "text": "ayuds"
+        },
+        {
+          "text": "Ayudame por favor"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Amputación",
+      "examples": [
+        {
+          "text": "le cortaron una pierna"
+        },
+        {
+          "text": "le falta un dedo"
+        },
+        {
+          "text": "le falta un brazo"
+        },
+        {
+          "text": "perdí un dedo"
+        },
+        {
+          "text": "perdió la oreja"
+        },
+        {
+          "text": "perdió una mano"
+        },
+        {
+          "text": "le cortaron un dedo"
+        },
+        {
+          "text": "me amputaron el pie"
+        },
+        {
+          "text": "perdí la mano"
+        }
+      ]
+    },
+    {
+      "intent": "Saludos",
+      "examples": [
+        {
+          "text": "necesito tu ayuda"
+        },
+        {
+          "text": "holaaaaa"
+        },
+        {
+          "text": "ayudame por favor"
+        },
+        {
+          "text": "Hola"
+        },
+        {
+          "text": "buenas noches"
+        },
+        {
+          "text": "buenos dias"
+        },
+        {
+          "text": "buenas tardes"
+        }
+      ]
+    },
+    {
+      "intent": "Numeros_de_emergencia",
+      "examples": [
+        {
+          "text": "dame los otros numeros"
+        },
+        {
+          "text": "dame los numeros por favor"
+        },
+        {
+          "text": "si, dame los numeros"
+        },
+        {
+          "text": "a donde puedo llamar por ayuda?"
+        },
+        {
+          "text": "cuales son los números telefónicos para pedir ayuda?"
+        },
+        {
+          "text": "cuales son los numeros?"
+        },
+        {
+          "text": "dame los numeros"
+        },
+        {
+          "text": "si por favor"
+        }
+      ]
+    },
+    {
+      "intent": "Gasolina_u_otros_combustibles",
+      "examples": [
+        {
+          "text": "veo gasolina en el suelo"
+        },
+        {
+          "text": "huele a gas"
+        },
+        {
+          "text": "el auto bota gas"
+        },
+        {
+          "text": "el auto tiene gasolina encima"
+        },
+        {
+          "text": "gasolina en todas partes"
+        }
+      ]
+    },
+    {
+      "intent": "Convulsiones",
+      "examples": [
+        {
+          "text": "creo que esta convulsionando"
+        },
+        {
+          "text": "convulsiones"
+        },
+        {
+          "text": "empezó a convulsionar"
+        },
+        {
+          "text": "ayuda esta convulsionando"
+        },
+        {
+          "text": "empezó a sacudirse mucho y no se detiene"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity": "momentos_del_dia",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "buenos días",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "buenas tardes",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "buenas noches",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "Partes_del_cuerpo",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "cuello",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "pie",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "brazo",
+          "synonyms": [
+            "brazos"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "muñeca",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "pierna",
+          "synonyms": [
+            "piernas"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "dedo",
+          "synonyms": [
+            "meñique",
+            "pulgar",
+            "indice",
+            "dedos"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "mano",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "sys-date",
+      "values": []
+    },
+    {
+      "entity": "sys-time",
+      "values": []
+    },
+    {
+      "entity": "sys-percentage",
+      "values": []
+    },
+    {
+      "entity": "Tipo_Persona",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "anciano",
+          "synonyms": [
+            "adulto mayor",
+            "anciana",
+            "abuela",
+            "abuelo",
+            "mayor"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "bebé",
+          "synonyms": [
+            "1 mes",
+            "meses",
+            "menor de 1 año",
+            "bebe",
+            "bebés",
+            "0 a 1 año"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "adulto",
+          "synonyms": [
+            "adultos",
+            "adultez",
+            "adulta",
+            "9 años",
+            "10 años",
+            "11 años",
+            "12 años",
+            "13 años",
+            "14 años",
+            "16 años",
+            "15 años",
+            "adolecente",
+            "adolescente",
+            "18 años",
+            "20 años"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "niño",
+          "synonyms": [
+            "hija",
+            "hijito",
+            "niña",
+            "1 a 8 años",
+            "2 años",
+            "3 años",
+            "4 años",
+            "5 años",
+            "6 años",
+            "7 años",
+            "8 años",
+            "menor de 8",
+            "menos de 8 años"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "Respuesta_afirmativa_o_negativa",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Si",
+          "synonyms": [
+            "por supuesto",
+            "sí",
+            "ya lo hice",
+            "listo",
+            "ya cabe",
+            "continua",
+            "continuemos",
+            "avanza",
+            "prosigue"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": [
+            "no puedo",
+            "nada"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "language": "es",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-09-20"
+    }
+  },
+  "description": "",
+  "dialog_nodes": [
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Esta bien, en caso de alguna emergencia no dudes en escribirme."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1563727163513",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_59_1563650318631"
+      },
+      "conditions": "@Respuesta_afirmativa_o_negativa:no",
+      "dialog_node": "node_4_1563727348986",
+      "previous_sibling": "node_3_1563727337791"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Esta bien, vamos lento. Imagina cualquier desastre natural y los eventos que este trae con sigo gente herida de múltiples formas, cortes, amputaciones, aplastamiento, hematomas, etc. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Iniciemos..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1563727163513",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bienvenido"
+      },
+      "conditions": "@Respuesta_afirmativa_o_negativa:Si",
+      "dialog_node": "node_3_1563727337791"
+    },
+    {
+      "type": "standard",
+      "title": "¿Fue posible?",
+      "output": {},
+      "parent": "node_78_1563669209279",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_75_1563669209273"
+      },
+      "conditions": "@Respuesta_afirmativa_o_negativa",
+      "dialog_node": "node_79_1563669209279"
+    },
+    {
+      "type": "standard",
+      "title": "¿Fue posible?",
+      "output": {},
+      "parent": "node_50_1563649787354",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_23_1563648306388"
+      },
+      "conditions": "@Respuesta_afirmativa_o_negativa",
+      "dialog_node": "node_61_1563652154962",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Iniciemos un diagnostico:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_11_1563685221404",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_24_1563685221411"
+      },
+      "conditions": "#RCP",
+      "dialog_node": "node_37_1563685221412",
+      "previous_sibling": "node_36_1563685221412"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Debes mantener la calma y"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_11_1563685221404",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_18_1563685221411"
+      },
+      "conditions": "#Atrapado_y_herido || #Gasolina_u_otros_combustibles",
+      "dialog_node": "node_34_1563685221411",
+      "previous_sibling": "node_33_1563685221411"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Espere... :"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_11_1563685221404",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_22_1563685221411"
+      },
+      "conditions": "#No_especifica_nada",
+      "dialog_node": "node_40_1563685221412",
+      "previous_sibling": "node_39_1563685221412"
+    },
+    {
+      "type": "standard",
+      "title": "No especifica",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Guarda la calma y explícame mejor que es lo que ocurre."
+              },
+              {
+                "text": "¿Que es lo que paso?"
+              },
+              {
+                "text": "Dime claramente que es lo que paso."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_11_1563685221404",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_11_1563685221404"
+      },
+      "dialog_node": "node_22_1563685221411",
+      "previous_sibling": "node_21_1563685221411"
+    },
+    {
+      "type": "standard",
+      "title": "RCP",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No hay problema primero que todo acueste a la persona boca arriba protegiendo su cabeza, verifique el pulso y respiración  (¿el pecho se eleva?), si no respira (incline suavemente la cabeza) verifique que nada obstruya las vías respiratorias. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "¿continuamos o te enseño a tomar el pulso?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_11_1563685221404",
+      "metadata": {},
+      "dialog_node": "node_24_1563685221411",
+      "previous_sibling": "node_23_1563685221411"
+    },
+    {
+      "type": "standard",
+      "title": "Pulso Cardiaco",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "te informo que puede ser medido en diferentes partes del cuerpo como lo son cuello o muñecas, ubicando tus dedos indice y corazón sobre estos. Regresemos al RCP."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_11_1563685221404",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_25_1563685221411"
+      },
+      "dialog_node": "node_23_1563685221411",
+      "previous_sibling": "node_22_1563685221411"
+    },
+    {
+      "type": "standard",
+      "title": "Convulsiones",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No trate de sujetar a la persona o evitar que se mueva. llame al centros de salud (123) si ocurre algo de lo siguiente:\n\nLa convulsión dura más de 5 minutos.\nLa persona tiene otra convulsión poco después de la primera.\nLa persona se lesiona durante la convulsión.\nLa convulsión se presenta cuando la persona está en el agua.\nLa persona tiene otra afección como diabetes, enfermedad cardíaca o está embarazada."
+              },
+              {
+                "text": "Con cuidado recueste a la persona en el piso.\nVoltee a la persona suavemente hacia un lado. Esto la ayudará a respirar.\nRetire del área alrededor de la persona los objetos duros o filosos para prevenir lesiones.\nPonga la cabeza de la persona sobre algo suave y plano, como una chaqueta doblada.\nSi tiene anteojos, quíteselos.\nSuéltele la corbata o cualquier cosa que tenga alrededor del cuello que pueda dificultar su respiración.\nTome el tiempo que dure la convulsión. "
+              },
+              {
+                "text": "¿Le puedo ayudar en algo mas?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_11_1563685221404",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_11_1563685221404"
+      },
+      "dialog_node": "node_19_1563685221411",
+      "previous_sibling": "node_18_1563685221411"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "El tratamiento para una Amputación es sencilla es :"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_11_1563685221404",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_13_1563685221411"
+      },
+      "conditions": "#Amputación && ( @Partes_del_cuerpo:pie || @Partes_del_cuerpo:dedo || @Partes_del_cuerpo:mano)",
+      "dialog_node": "node_39_1563685221412",
+      "previous_sibling": "node_38_1563685221412"
+    },
+    {
+      "type": "standard",
+      "title": "Hemorragia",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Lava tus manos con solución antiséptica o jabón. Si es posible usa guantes de látex."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Coge gasas, colócalas sobre la herida y presiona fuerte. Si no tienes gasas a mano puedes usar cualquier textil lo más limpio posible: ropa, trapo, pañuelo... Nunca retires ese apósito ya que sobre él se van formando coágulos que van taponando la herida y si lo quitamos volvemos a abrirla. Si se empapa mucho sigue poniendo más apósitos encima. Si es una herida muy grande puedes rellenarla con gasas y luego hacer la presión. Presiona al menos durante diez minutos con ambas manos. Si la hemorragia se controla puedes retirar tus manos y realizar un vendaje compresivo."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "En casos de hipotermia el tiempo de coagulación se alarga mucho más de 10 minutos. Y en personas que estén tomando anti-coagulantes puede que este método no cohíba la hemorragia y deberemos presionar hasta que vengan las asistencias o realizar un torniquete si la herida es en una extremidad. "
+              },
+              {
+                "text": "¿Te puedo ayudar con algo mas?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_11_1563685221404",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_11_1563685221404"
+      },
+      "dialog_node": "node_21_1563685221411",
+      "previous_sibling": "node_20_1563685221411"
+    },
+    {
+      "type": "standard",
+      "title": "Aplastamiento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Si la persona esta consiente intente retirar el objeto que lo presiona, si no esta consiente o siente demasiado dolor al mover el objeto que lo presiona evite  mover mas el objeto para evitar mas daños en la persona.   "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "¿Fue posible retirar el objeto?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_11_1563685221404",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_15_1563685221411"
+      },
+      "dialog_node": "node_14_1563685221411",
+      "previous_sibling": "node_13_1563685221411"
+    },
+    {
+      "type": "standard",
+      "title": "Hematoma",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Reposa la zona del moretón si es posible.\nAplicar una compresa de hielo envuelta en una toalla sobre el moretón sobre la zona entre 10 y 20 minutos. Repite esto varias veces al día durante uno o dos días, según sea necesario.\nComprime la zona del moretón con una venda elástica si está inflamada. No la ajustes demasiado.\nEleva la zona lesionada.\nSi la piel no está lastimada, no es necesario utilizar una venda. Considera tomar analgésicos de venta libre si es necesario."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Consulte al medico si el dolor o inflamación continúan."
+              },
+              {
+                "text": "¿Le puedo ayudar en algo mas?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_11_1563685221404",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_11_1563685221404"
+      },
+      "dialog_node": "node_20_1563685221411",
+      "previous_sibling": "node_19_1563685221411"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "El tratamiento para una Amputación es :"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_11_1563685221404",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_12_1563685221411"
+      },
+      "conditions": "#Amputación && ( @Partes_del_cuerpo:pierna || @Partes_del_cuerpo:brazo)",
+      "dialog_node": "node_32_1563685221411",
+      "previous_sibling": "node_24_1563685221411"
+    },
+    {
+      "type": "standard",
+      "title": "Amputación sencilla",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "si te encuentras con una amputación de un dedo, una mano, un pie... debes saber que hay una forma de mantener ese miembro \"vivo\" para después poder reimplantarlo en la persona. Aunque no sea reimplantable, siempre lo podrán usar en el hospital para la reconstrucción de la zona.\n\nDebes coger el miembro, envolverlo en un paño limpio y a su vez meterlo en una bolsa y cerrarla bien. Todo ello lo debes introducir en un recipiente con agua y hielo o hielo directamente (lo ideal es una temperatura de 4ºC)."
+              },
+              {
+                "text": "¿Te puedo ayudar con algo mas?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_11_1563685221404",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_11_1563685221404"
+      },
+      "dialog_node": "node_13_1563685221411",
+      "previous_sibling": "node_12_1563685221411"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Debes mantener la calma, ahora:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_11_1563685221404",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_14_1563685221411"
+      },
+      "conditions": "#Aplastamiento",
+      "dialog_node": "node_33_1563685221411",
+      "previous_sibling": "node_32_1563685221411"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "El tratamiento para un Hematoma es:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_11_1563685221404",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_20_1563685221411"
+      },
+      "conditions": "#Hematoma",
+      "dialog_node": "node_38_1563685221412",
+      "previous_sibling": "node_37_1563685221412"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_11_1563685221404",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_59_1563650318631"
+      },
+      "conditions": "#Fin_de_la_Ayuda",
+      "dialog_node": "node_42_1563685221412",
+      "previous_sibling": "node_41_1563685221412"
+    },
+    {
+      "type": "standard",
+      "title": "Atrapado en un auto",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Primero verifica si no existen fugas de gasolina antes de acercarte, si existen fugas recuerda poner tu seguridad sobre la de los demás. Debes tomar la decisión de sacar a la persona del auto o alejare lo mas pronto posible. Recuerde que primero esta su seguridad. Si no puedes sacarlo debes mantener a la persona consiente hasta que lleguen los servicios de emergencia. Háblale en todo momento y no dejes que se duerma o desmaye. te ayudo con algo mas?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_11_1563685221404",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_11_1563685221404"
+      },
+      "conditions": "Atrapado en un auto || #Gasolina_u_otros_combustibles",
+      "dialog_node": "node_18_1563685221411",
+      "previous_sibling": "node_14_1563685221411"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "El tratamiento para una Convulsion es:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_11_1563685221404",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_19_1563685221411"
+      },
+      "conditions": "#Convulsiones",
+      "dialog_node": "node_35_1563685221412",
+      "previous_sibling": "node_34_1563685221411"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para tomar el pulso:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_11_1563685221404",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_23_1563685221411"
+      },
+      "conditions": "#Tomar_el_Pulso",
+      "dialog_node": "node_41_1563685221412",
+      "previous_sibling": "node_40_1563685221412"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "El tratamiento para una Hemorragia es :"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_11_1563685221404",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_21_1563685221411"
+      },
+      "conditions": "#Hemorragia",
+      "dialog_node": "node_36_1563685221412",
+      "previous_sibling": "node_35_1563685221412"
+    },
+    {
+      "type": "standard",
+      "title": "Amputación Extremidad",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Haremos un torniquete, necesitarás una banda de unos 5 centímetros de ancho y al menos medio metro de largo, algo más si tienes que colocarlo en el muslo. Una corbata sería un ejemplo ideal, pero te puede servir un trapo, una camisa, una correa de tela, una toalla... pero nunca un cordón o un cable. También es necesario un objeto tensor fuerte y largo, no sirve un bolígrafo ni un lápiz ya que se partirán."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Los pasos a seguir son los siguientes:                                                                             1. 1. Quita o corta la ropa para ver bien la herida.\n2. Coloca la banda unos 5 centímetros por encima de la herida, pero nunca sobre el codo o la rodilla.\n3. Haz una o dos vueltas y un nudo simple.\n4. Coloca el tensor con un nudo doble.\n5. Gira hasta que la hemorragia cese y desaparezca el pulso tras el torniquete. Aunque ocasione mucho dolor, no debes aflojarlo y no aprietes más de lo necesario.\n6. Fija el tensor para que no se afloje el torniquete.\n7. Anota la hora de colocación.\n8. No lo aflojes ni lo retires hasta aunque lleguen a un hospital. Lo ideal es que reciba ayuda especializada antes de las dos horas tras su colocación."
+              },
+              {
+                "text": "Puedo ayudarte en algo más?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_11_1563685221404",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_11_1563685221404"
+      },
+      "dialog_node": "node_12_1563685221411"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Iniciemos un diagnostico:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_23_1563648306388",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_58_1563650229473"
+      },
+      "conditions": "#RCP",
+      "dialog_node": "node_74_1563664540390",
+      "previous_sibling": "node_29_1563648430433"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Primero verifica si no existen fugas de gasolina antes de acercarte, si existen fugas recuerda poner tu seguridad sobre la de los demás. Debes tomar la decisión de sacar a la persona del auto o alejare lo mas pronto posible. Recuerde que primero esta su seguridad. Si no puedes sacarlo debes mantener a la persona consiente hasta que lleguen los servicios de emergencia. Háblale en todo momento y no dejes que se duerma o desmaye."
+              },
+              {
+                "text": "te ayudo con algo mas?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_23_1563648306388",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_23_1563648306388"
+      },
+      "conditions": "Atrapado en un auto",
+      "dialog_node": "node_51_1563649838804",
+      "previous_sibling": "node_50_1563649787354"
+    },
+    {
+      "type": "standard",
+      "title": "RCP",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No hay problema primero que todo acueste a la persona boca arriba protegiendo su cabeza, verifique el pulso y respiración  (¿el pecho se eleva?), si no respira (incline suavemente la cabeza) verifique que nada obstruya las vías respiratorias. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "¿continuamos?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_23_1563648306388",
+      "metadata": {},
+      "dialog_node": "node_58_1563650229473",
+      "previous_sibling": "node_56_1563650096018"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Debes mantener la calma, ahora:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_23_1563648306388",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_50_1563649787354"
+      },
+      "conditions": "#Aplastamiento",
+      "dialog_node": "node_25_1563648395272",
+      "previous_sibling": "node_24_1563648364781"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "El tratamiento para una Hemorragia es :"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_23_1563648306388",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_55_1563650031841"
+      },
+      "conditions": "#Hemorragia",
+      "dialog_node": "node_29_1563648430433",
+      "previous_sibling": "node_27_1563648426136"
+    },
+    {
+      "type": "standard",
+      "title": "No especifica",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Guarda la calma y explícame mejor que es lo que ocurre."
+              },
+              {
+                "text": "¿Que es lo que paso?"
+              },
+              {
+                "text": "Dime claramente que es lo que paso."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_23_1563648306388",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_23_1563648306388"
+      },
+      "dialog_node": "node_57_1563650158344",
+      "previous_sibling": "node_55_1563650031841"
+    },
+    {
+      "type": "standard",
+      "title": "Pulso Cardiaco",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "te informo que puede ser medido en diferentes partes del cuerpo como lo son cuello o muñecas, ubicando tus dedos indice y corazón sobre estos. Continuemos con el RCP."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_23_1563648306388",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_67_1563662670737"
+      },
+      "dialog_node": "node_56_1563650096018",
+      "previous_sibling": "node_57_1563650158344"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "El tratamiento para una Amputación es sencilla es :"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_23_1563648306388",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_49_1563649718778"
+      },
+      "conditions": "#Amputación && ( @Partes_del_cuerpo:pie || @Partes_del_cuerpo:dedo || @Partes_del_cuerpo:mano)",
+      "dialog_node": "node_60_1563650720979",
+      "previous_sibling": "node_30_1563648432441"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "El tratamiento para una Convulsion es:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_23_1563648306388",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_53_1563649915306"
+      },
+      "conditions": "#Convulsiones",
+      "dialog_node": "node_27_1563648426136",
+      "previous_sibling": "node_26_1563648422330"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "El tratamiento para una Amputación es :"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_23_1563648306388",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_48_1563649629094"
+      },
+      "conditions": "#Amputación && ( @Partes_del_cuerpo:pierna || @Partes_del_cuerpo:brazo)",
+      "dialog_node": "node_24_1563648364781",
+      "previous_sibling": "node_58_1563650229473"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Fue un gusto,"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_23_1563648306388",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_59_1563650318631"
+      },
+      "conditions": "#Fin_de_la_Ayuda",
+      "dialog_node": "node_64_1563652416162",
+      "previous_sibling": "node_9_1563684087529"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Espere... :"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_23_1563648306388",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_57_1563650158344"
+      },
+      "conditions": "#No_especifica_nada",
+      "dialog_node": "node_66_1563658049998",
+      "previous_sibling": "node_60_1563650720979"
+    },
+    {
+      "type": "standard",
+      "title": "Convulsiones",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No trate de sujetar a la persona o evitar que se mueva. llame al centros de salud (123) si ocurre algo de lo siguiente:\n\nLa convulsión dura más de 5 minutos.\nLa persona tiene otra convulsión poco después de la primera.\nLa persona se lesiona durante la convulsión.\nLa convulsión se presenta cuando la persona está en el agua.\nLa persona tiene otra afección como diabetes, enfermedad cardíaca o está embarazada."
+              },
+              {
+                "text": "Con cuidado recueste a la persona en el piso.\nVoltee a la persona suavemente hacia un lado. Esto la ayudará a respirar.\nRetire del área alrededor de la persona los objetos duros o filosos para prevenir lesiones.\nPonga la cabeza de la persona sobre algo suave y plano, como una chaqueta doblada.\nSi tiene anteojos, quíteselos.\nSuéltele la corbata o cualquier cosa que tenga alrededor del cuello que pueda dificultar su respiración.\nTome el tiempo que dure la convulsión. "
+              },
+              {
+                "text": "¿Le puedo ayudar en algo mas?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_23_1563648306388",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_23_1563648306388"
+      },
+      "dialog_node": "node_53_1563649915306",
+      "previous_sibling": "node_51_1563649838804"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Debes mantener la calma y"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_23_1563648306388",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_51_1563649838804"
+      },
+      "conditions": "#Atrapado_y_herido",
+      "dialog_node": "node_26_1563648422330",
+      "previous_sibling": "node_25_1563648395272"
+    },
+    {
+      "type": "standard",
+      "title": "Amputación sencilla",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "si te encuentras con una amputación de un dedo, una mano, un pie... debes saber que hay una forma de mantener ese miembro \"vivo\" para después poder reimplantarlo en la persona. Aunque no sea reimplantable, siempre lo podrán usar en el hospital para la reconstrucción de la zona.\n\nDebes coger el miembro, envolverlo en un paño limpio y a su vez meterlo en una bolsa y cerrarla bien. Todo ello lo debes introducir en un recipiente con agua y hielo o hielo directamente (lo ideal es una temperatura de 4ºC)."
+              },
+              {
+                "text": "¿Te puedo ayudar con algo mas?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_23_1563648306388",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_23_1563648306388"
+      },
+      "dialog_node": "node_49_1563649718778",
+      "previous_sibling": "node_48_1563649629094"
+    },
+    {
+      "type": "standard",
+      "title": "Aplastamiento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Si la persona esta consiente intente retirar el objeto que lo presiona, si no esta consiente o siente demasiado dolor al mover el objeto que lo presiona evite  mover mas el objeto para evitar mas daños en la persona.   "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "¿Fue posible retirar el objeto?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_23_1563648306388",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_61_1563652154962"
+      },
+      "dialog_node": "node_50_1563649787354",
+      "previous_sibling": "node_49_1563649718778"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "El tratamiento para un Hematoma es:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_23_1563648306388",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_54_1563649988572"
+      },
+      "conditions": "#Hematoma",
+      "dialog_node": "node_30_1563648432441",
+      "previous_sibling": "node_74_1563664540390"
+    },
+    {
+      "type": "standard",
+      "title": "Hematoma",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Reposa la zona del moretón si es posible.\nAplicar una compresa de hielo envuelta en una toalla sobre el moretón sobre la zona entre 10 y 20 minutos. Repite esto varias veces al día durante uno o dos días, según sea necesario.\nComprime la zona del moretón con una venda elástica si está inflamada. No la ajustes demasiado.\nEleva la zona lesionada.\nSi la piel no está lastimada, no es necesario utilizar una venda. Considera tomar analgésicos de venta libre si es necesario."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Consulte al medico si el dolor o inflamación continúan."
+              },
+              {
+                "text": "¿Le puedo ayudar en algo mas?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_23_1563648306388",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_23_1563648306388"
+      },
+      "dialog_node": "node_54_1563649988572",
+      "previous_sibling": "node_53_1563649915306"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para tomar el pulso debe:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_23_1563648306388",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_56_1563650096018"
+      },
+      "conditions": "#Tomar_el_Pulso",
+      "dialog_node": "node_9_1563684087529",
+      "previous_sibling": "node_66_1563658049998"
+    },
+    {
+      "type": "standard",
+      "title": "Hemorragia",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Si es posible usa guantes de látex"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Coge gasas, colócalas sobre la herida y presiona fuerte. Si no tienes gasas a mano puedes usar cualquier textil lo más limpio posible: ropa, trapo, pañuelo... Nunca retires ese apósito ya que sobre él se van formando coágulos que van taponando la herida y si lo quitamos volvemos a abrirla. Si se empapa mucho sigue poniendo más apósitos encima. Si es una herida muy grande puedes rellenarla con gasas y luego hacer la presión. Presiona al menos durante diez minutos con ambas manos. Si la hemorragia se controla puedes retirar tus manos y realizar un vendaje compresivo."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "En casos de hipotermia el tiempo de coagulación se alarga mucho más de 10 minutos. Y en personas que estén tomando anti-coagulantes puede que este método no cohíba la hemorragia y deberemos presionar hasta que vengan las asistencias o realizar un torniquete si la herida es en una extremidad. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "¿Te puedo ayudar con algo mas?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_23_1563648306388",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_23_1563648306388"
+      },
+      "dialog_node": "node_55_1563650031841",
+      "previous_sibling": "node_54_1563649988572"
+    },
+    {
+      "type": "standard",
+      "title": "Amputación Extremidad",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Realiza un torniquete, para realizar lo con medios de fortuna necesitarás una banda de unos 5 centímetros de ancho y al menos medio metro de largo (algo más si tienes que colocarlo en el muslo). Una corbata sería un ejemplo ideal, pero te puede servir un trapo, una camisa, una correa de tela, una toalla... pero nunca un cordón o un cable. También es necesario un objeto tensor fuerte y largo (no sirve un bolígrafo ni un lápiz ya que se partirán)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Los pasos a seguir son los siguientes:                                                                             1. Quita o corta la ropa para ver bien la herida.\n2. Coloca la banda unos 5 centímetros por encima de la herida, pero nunca sobre el codo o la rodilla.\n3. Realiza una o dos vueltas y un nudo simple.\n4. Coloca el tensor y fíjate con un nudo doble.\n5. Gira hasta que la hemorragia cese y desaparezca el pulso distal (en pie o mano). Esto puede ocasionar mucho dolor a la persona pero no debes aflojarlo. No aprietes más de lo necesario.\n6. Fija el tensor para que no se afloje el torniquete.\n7. Anota la hora de colocación.\n8. No lo aflojes ni lo retires hasta que lleguen los sanitarios. Lo ideal es que reciba ayuda especializada antes de las dos horas tras su colocación."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_23_1563648306388",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_23_1563648306388"
+      },
+      "dialog_node": "node_48_1563649629094"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_68_1563663689865",
+      "disabled": true,
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_67_1563662670737"
+      },
+      "conditions": "@Respuesta_afirmativa_o_negativa:no && @Tipo_Persona:bebé",
+      "dialog_node": "node_73_1563664365992",
+      "previous_sibling": "node_72_1563664333695"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Con el bebe realice lo siguiente: "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_68_1563663689865",
+      "disabled": true,
+      "metadata": {},
+      "conditions": "@Tipo_Persona:bebé",
+      "dialog_node": "node_72_1563664333695"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_90_1563669209280",
+      "disabled": true,
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_89_1563669209280"
+      },
+      "conditions": "@Respuesta_afirmativa_o_negativa:no && @Tipo_Persona:bebé",
+      "dialog_node": "node_92_1563669209280",
+      "previous_sibling": "node_91_1563669209280"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Con el bebe realice lo siguiente: "
+              },
+              {
+                "text": "¿Le pudeo ayudar con algo mas?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_90_1563669209280",
+      "disabled": true,
+      "metadata": {},
+      "conditions": "@Tipo_Persona:bebé",
+      "dialog_node": "node_91_1563669209280"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "parent": "node_1_1563726819959",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bienvenido"
+      },
+      "conditions": "@Respuesta_afirmativa_o_negativa",
+      "dialog_node": "node_2_1563727163513",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Acompañe en todo momento al herido y espere la ayuda profesional. ¿Le puedo ayudar en algo mas?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_15_1563685221411",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_11_1563685221404"
+      },
+      "conditions": "@Respuesta_afirmativa_o_negativa:no",
+      "dialog_node": "node_17_1563685221411",
+      "previous_sibling": "node_16_1563685221411"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Evite movimientos bruscos, observe si la persona tiene otras heridas, acompañe en todo momento al herido y pídale a alguien del personal medico que lo revise explicándole todo lo ocurrido."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_15_1563685221411",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_11_1563685221404"
+      },
+      "conditions": "@Respuesta_afirmativa_o_negativa:Si",
+      "dialog_node": "node_16_1563685221411"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Dime, tienes un botiquín?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1563646079569",
+      "disabled": true,
+      "metadata": {},
+      "conditions": "@Respuesta_afirmativa_o_negativa:Si",
+      "dialog_node": "node_3_1563646160698",
+      "previous_sibling": "node_4_1563646212583"
+    },
+    {
+      "type": "standard",
+      "title": "Opc. Botiquín",
+      "output": {},
+      "parent": "node_2_1563646079569",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@Respuesta_afirmativa_o_negativa",
+      "dialog_node": "node_4_1563646212583",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_26_1563685221411",
+      "disabled": true,
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_25_1563685221411"
+      },
+      "conditions": "@Respuesta_afirmativa_o_negativa:no && @Tipo_Persona:bebé",
+      "dialog_node": "node_28_1563685221411",
+      "previous_sibling": "node_27_1563685221411"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Con el bebe realice lo siguiente: "
+              },
+              {
+                "text": "¿Le pudeo ayudar con algo mas?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_26_1563685221411",
+      "disabled": true,
+      "metadata": {},
+      "conditions": "@Tipo_Persona:bebé",
+      "dialog_node": "node_27_1563685221411"
+    },
+    {
+      "type": "standard",
+      "title": "Edad de la persona",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Según la edad de la persona cual es el rango de edad? bebe (0 a 1 año), niño (1 a 8 años), adulto (8 a 50 años), adulto mayor (+ de 50 años)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_88_1563669209280",
+      "metadata": {},
+      "conditions": "@Respuesta_afirmativa_o_negativa:Si",
+      "dialog_node": "node_89_1563669209280"
+    },
+    {
+      "type": "standard",
+      "title": "Edad de la persona",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Según la edad de la persona cual es el rango de edad? bebe (0 a 1 año), niño (1 a 8 años), adulto (8 a 50 años), adulto mayor (+ de 50 años)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_24_1563685221411",
+      "metadata": {},
+      "conditions": "@Respuesta_afirmativa_o_negativa:Si",
+      "dialog_node": "node_25_1563685221411"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Primero que todo vamos a asegurarnos de que la zona sea segura"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1563646212583",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_12_1563646628354"
+      },
+      "conditions": "@Respuesta_afirmativa_o_negativa:no",
+      "dialog_node": "node_6_1563646245711",
+      "previous_sibling": "node_5_1563646224916"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Es el botiquín W?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1563646212583",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_11_1563646601610"
+      },
+      "conditions": "@Respuesta_afirmativa_o_negativa:Si",
+      "dialog_node": "node_5_1563646224916"
+    },
+    {
+      "type": "standard",
+      "title": "Adulto",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "siga los siguientes pasos: Extiende la cabeza hacia atrás y levante la barbilla como en la imagen.\nApriete y cierre la nariz\nSelle sus labios alrededor de la boca.\nDé 2 exhalaciones completas.\nSi las exhalaciones no van hacia adentro vuelva a levantar la cabeza e inténtelo de nuevo.Realice compresiones al pecho (mas info con 2 manos)"
+              },
+              {
+                "text": "¿Le puedo ayudar con algo mas?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_89_1563669209280",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_75_1563669209273"
+      },
+      "conditions": "@Tipo_Persona:adulto",
+      "dialog_node": "node_94_1563669209280",
+      "previous_sibling": "node_93_1563669209280"
+    },
+    {
+      "type": "standard",
+      "title": "Niños",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "siga los siguientes pasos: Extiende la cabeza hacia atrás y levante la barbilla como en la imagen.\nApriete y cierre la nariz\nSelle sus labios alrededor de la boca.\nDé 2 exhalaciones completas.\nSi las exhalaciones no van hacia adentro vuelva a levantar la cabeza e inténtelo de nuevo.Realice compresiones al pecho (mas info una mano)"
+              },
+              {
+                "text": "¿Le puedo ayudar con algo mas?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_89_1563669209280",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_75_1563669209273"
+      },
+      "conditions": "@Tipo_Persona:niño",
+      "dialog_node": "node_93_1563669209280",
+      "previous_sibling": "node_90_1563669209280"
+    },
+    {
+      "type": "standard",
+      "title": "Adulto mayor",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "siga los siguientes pasos teniendo en cuenta la delicadeza de los huesos: Extiende la cabeza hacia atrás y levante la barbilla como en la imagen.\nApriete y cierre la nariz\nSelle sus labios alrededor de la boca.\nDé 2 exhalaciones completas.\nSi las exhalaciones no van hacia adentro vuelva a levantar la cabeza e inténtelo de nuevo.Realice compresiones al pecho (mas info)"
+              },
+              {
+                "text": "¿Le puedo ayudar con algo mas?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_89_1563669209280",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_75_1563669209273"
+      },
+      "conditions": "@Tipo_Persona:anciano",
+      "dialog_node": "node_95_1563669209280",
+      "previous_sibling": "node_94_1563669209280"
+    },
+    {
+      "type": "standard",
+      "title": "Bebe",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Con el bebe realice lo siguiente:  con su brazo no dominante tome al bebe sobre su brazo y sujete con la mano la cabeza y con la mano dominante  extienda su dedo corazón e indice va a hacer compresiones sobre su pecho con mucho cuidado.    "
+              },
+              {
+                "text": "¿Le puedo ayudar con algo mas?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_89_1563669209280",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_75_1563669209273"
+      },
+      "conditions": "@Tipo_Persona:bebé",
+      "dialog_node": "node_90_1563669209280"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Dime que ocurre."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_11_1563646601610",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_75_1563669209273"
+      },
+      "conditions": "@Respuesta_afirmativa_o_negativa:no",
+      "dialog_node": "node_14_1563647181717",
+      "previous_sibling": "node_13_1563647178128"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Quita la cinta de seguridad, abre el botiquín y dime que ocurrió."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_11_1563646601610",
+      "metadata": {},
+      "conditions": "@Respuesta_afirmativa_o_negativa:Si",
+      "dialog_node": "node_13_1563647178128"
+    },
+    {
+      "type": "standard",
+      "title": "Adulto mayor",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "siga los siguientes pasos teniendo en cuenta la delicadeza de los huesos: Extiende la cabeza hacia atrás y levante la barbilla como en la imagen.\nApriete y cierre la nariz\nSelle sus labios alrededor de la boca.\nDé 2 exhalaciones completas.\nSi las exhalaciones no van hacia adentro vuelva a levantar la cabeza e inténtelo de nuevo.Realice compresiones al pecho (mas info)"
+              },
+              {
+                "text": "¿Le puedo ayudar con algo mas?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_25_1563685221411",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_11_1563685221404"
+      },
+      "conditions": "@Tipo_Persona:anciano",
+      "dialog_node": "node_31_1563685221411",
+      "previous_sibling": "node_30_1563685221411"
+    },
+    {
+      "type": "standard",
+      "title": "Niños",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "siga los siguientes pasos: Extiende la cabeza hacia atrás y levante la barbilla como en la imagen.\nApriete y cierre la nariz\nSelle sus labios alrededor de la boca.\nDé 2 exhalaciones completas.\nSi las exhalaciones no van hacia adentro vuelva a levantar la cabeza e inténtelo de nuevo.Realice compresiones al pecho (mas info una mano)"
+              },
+              {
+                "text": "¿Le puedo ayudar con algo mas?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_25_1563685221411",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_11_1563685221404"
+      },
+      "conditions": "@Tipo_Persona:niño",
+      "dialog_node": "node_29_1563685221411",
+      "previous_sibling": "node_26_1563685221411"
+    },
+    {
+      "type": "standard",
+      "title": "Adulto",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "siga los siguientes pasos: Extiende la cabeza hacia atrás y levante la barbilla como en la imagen.\nApriete y cierre la nariz\nSelle sus labios alrededor de la boca.\nDé 2 exhalaciones completas.\nSi las exhalaciones no van hacia adentro vuelva a levantar la cabeza e inténtelo de nuevo.Realice compresiones al pecho (mas info con 2 manos)"
+              },
+              {
+                "text": "¿Le puedo ayudar con algo mas?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_25_1563685221411",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_11_1563685221404"
+      },
+      "conditions": "@Tipo_Persona:adulto",
+      "dialog_node": "node_30_1563685221411",
+      "previous_sibling": "node_29_1563685221411"
+    },
+    {
+      "type": "standard",
+      "title": "Bebe",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Con el bebe realice lo siguiente:  con su brazo no dominante tome al bebe sobre su brazo y sujete con la mano la cabeza y con la mano dominante  extienda su dedo corazón e indice va a hacer compresiones sobre su pecho con mucho cuidado.    "
+              },
+              {
+                "text": "¿Le puedo ayudar con algo mas?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_25_1563685221411",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_11_1563685221404"
+      },
+      "conditions": "@Tipo_Persona:bebé",
+      "dialog_node": "node_26_1563685221411"
+    },
+    {
+      "type": "standard",
+      "title": "Nodo Madre W",
+      "output": {},
+      "parent": "node_20_1563648021716",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Amputación || #Aplastamiento || #Atrapado_y_herido || #Convulsiones || #Gasolina_u_otros_combustibles || #Hemorragia || #Hematoma || #RCP || #Tomar_el_Pulso",
+      "dialog_node": "node_11_1563685221404"
+    },
+    {
+      "type": "standard",
+      "title": "Edad de la persona",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Según la edad de la persona cual es el rango de edad? bebe (0 a 1 año), niño (1 a 8 años), adulto (8 a 50 años), adulto mayor (+ de 50 años)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_58_1563650229473",
+      "metadata": {},
+      "conditions": "@Respuesta_afirmativa_o_negativa:Si",
+      "dialog_node": "node_67_1563662670737"
+    },
+    {
+      "type": "standard",
+      "title": "Adulto",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "siga los siguientes pasos: Extiende la cabeza hacia atrás y levante la barbilla como en la imagen.\nApriete y cierre la nariz\nSelle sus labios alrededor de la boca.\nDé 2 exhalaciones completas.\nSi las exhalaciones no van hacia adentro vuelva a levantar la cabeza e inténtelo de nuevo.Realice compresiones al pecho (mas info con 2 manos)"
+              },
+              {
+                "text": "¿Le puedo ayudar con algo mas?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_67_1563662670737",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_23_1563648306388"
+      },
+      "conditions": "@Tipo_Persona:adulto",
+      "dialog_node": "node_70_1563663906175",
+      "previous_sibling": "node_69_1563663844024"
+    },
+    {
+      "type": "standard",
+      "title": "Adulto mayor",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "siga los siguientes pasos teniendo en cuenta la delicadeza de los huesos: Extiende la cabeza hacia atrás y levante la barbilla como en la imagen.\nApriete y cierre la nariz\nSelle sus labios alrededor de la boca.\nDé 2 exhalaciones completas.\nSi las exhalaciones no van hacia adentro vuelva a levantar la cabeza e inténtelo de nuevo.Realice compresiones al pecho (mas info)"
+              },
+              {
+                "text": "¿Le puedo ayudar con algo mas?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_67_1563662670737",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_23_1563648306388"
+      },
+      "conditions": "@Tipo_Persona:anciano",
+      "dialog_node": "node_71_1563663946158",
+      "previous_sibling": "node_70_1563663906175"
+    },
+    {
+      "type": "standard",
+      "title": "Niños",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "siga los siguientes pasos: Extiende la cabeza hacia atrás y levante la barbilla como en la imagen.\nApriete y cierre la nariz\nSelle sus labios alrededor de la boca.\nDé 2 exhalaciones completas.\nSi las exhalaciones no van hacia adentro vuelva a levantar la cabeza e inténtelo de nuevo.Realice compresiones al pecho (mas info una mano)"
+              },
+              {
+                "text": "¿Le puedo ayudar con algo mas?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_67_1563662670737",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_23_1563648306388"
+      },
+      "conditions": "@Tipo_Persona:niño",
+      "dialog_node": "node_69_1563663844024",
+      "previous_sibling": "node_68_1563663689865"
+    },
+    {
+      "type": "standard",
+      "title": "Bebe",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Con el bebe realice lo siguiente:  con su brazo no dominante tome al bebe sobre su brazo y sujete con la mano la cabeza y con la mano dominante  extienda su dedo corazón e indice va a hacer compresiones sobre su pecho con mucho cuidado.    "
+              },
+              {
+                "text": "¿Le pudeo ayudar con algo mas?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_67_1563662670737",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_23_1563648306388"
+      },
+      "conditions": "@Tipo_Persona:bebé",
+      "dialog_node": "node_68_1563663689865",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Acompañe en todo momento al herido y espere la ayuda profesional. ¿Le puedo ayudar en algo mas?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_79_1563669209279",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_75_1563669209273"
+      },
+      "conditions": "@Respuesta_afirmativa_o_negativa:no",
+      "dialog_node": "node_81_1563669209279",
+      "previous_sibling": "node_80_1563669209279"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Evite movimientos bruscos, observe si la persona tiene otras heridas, acompañe en todo momento al herido y pídale a alguien del personal medico que lo revise explicándole todo lo ocurrido."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_79_1563669209279",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_75_1563669209273"
+      },
+      "conditions": "@Respuesta_afirmativa_o_negativa:Si",
+      "dialog_node": "node_80_1563669209279"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Acompañe en todo momento a al herido y espere la ayuda profesional. ¿Le puedo ayudar en algo mas?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_61_1563652154962",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_23_1563648306388"
+      },
+      "conditions": "@Respuesta_afirmativa_o_negativa:no",
+      "dialog_node": "node_63_1563652187217",
+      "previous_sibling": "node_62_1563652180516"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Evite movimientos bruscos, observe si la persona tiene otras heridas, acompañe en todo momento al herido y pídale alguien del personal medico que lo revise explicándole todo lo ocurrido."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_61_1563652154962",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_23_1563648306388"
+      },
+      "conditions": "@Respuesta_afirmativa_o_negativa:Si",
+      "dialog_node": "node_62_1563652180516"
+    },
+    {
+      "type": "standard",
+      "title": "¿Fue posible?",
+      "output": {},
+      "parent": "node_14_1563685221411",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_11_1563685221404"
+      },
+      "conditions": "@Respuesta_afirmativa_o_negativa",
+      "dialog_node": "node_15_1563685221411"
+    },
+    {
+      "type": "standard",
+      "title": "Números de emergencia",
+      "output": {},
+      "parent": "Bienvenido",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@Respuesta_afirmativa_o_negativa || #Info_del_asistente",
+      "dialog_node": "node_4_1563672253242",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "standard",
+      "title": "Atrapado en un auto",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Primero verifica si no existen fugas de gasolina antes de acercarte, si existen fugas recuerda poner tu seguridad sobre la de los demás. Debes tomar la decisión de sacar a la persona del auto o alejare lo mas pronto posible. Recuerde que primero esta su seguridad. Si no puedes sacarlo debes mantener a la persona consiente hasta que lleguen los servicios de emergencia. Háblale en todo momento y no dejes que se duerma o desmaye. te ayudo con algo mas?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_75_1563669209273",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_75_1563669209273"
+      },
+      "conditions": "Atrapado en un auto || #Gasolina_u_otros_combustibles",
+      "dialog_node": "node_82_1563669209279",
+      "previous_sibling": "node_78_1563669209279"
+    },
+    {
+      "type": "standard",
+      "title": "No especifica",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Guarda la calma y explícame mejor que es lo que ocurre."
+              },
+              {
+                "text": "¿Que es lo que paso?"
+              },
+              {
+                "text": "Dime claramente que es lo que paso."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_75_1563669209273",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_75_1563669209273"
+      },
+      "dialog_node": "node_86_1563669209279",
+      "previous_sibling": "node_85_1563669209279"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Debes mantener la calma, ahora:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_75_1563669209273",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_78_1563669209279"
+      },
+      "conditions": "#Aplastamiento",
+      "dialog_node": "node_97_1563669209280",
+      "previous_sibling": "node_96_1563669209280"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Fue un gusto,"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_75_1563669209273",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_59_1563650318631"
+      },
+      "conditions": "#Fin_de_la_Ayuda",
+      "dialog_node": "node_105_1563669209280",
+      "previous_sibling": "node_8_1563683877486"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "El tratamiento para una Hemorragia es :"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_75_1563669209273",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_85_1563669209279"
+      },
+      "conditions": "#Hemorragia",
+      "dialog_node": "node_100_1563669209280",
+      "previous_sibling": "node_99_1563669209280"
+    },
+    {
+      "type": "standard",
+      "title": "Hematoma",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Reposa la zona del moretón si es posible.\nAplicar una compresa de hielo envuelta en una toalla sobre el moretón sobre la zona entre 10 y 20 minutos. Repite esto varias veces al día durante uno o dos días, según sea necesario.\nComprime la zona del moretón con una venda elástica si está inflamada. No la ajustes demasiado.\nEleva la zona lesionada.\nSi la piel no está lastimada, no es necesario utilizar una venda. Considera tomar analgésicos de venta libre si es necesario."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Consulte al medico si el dolor o inflamación continúan."
+              },
+              {
+                "text": "¿Le puedo ayudar en algo mas?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_75_1563669209273",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_75_1563669209273"
+      },
+      "dialog_node": "node_84_1563669209279",
+      "previous_sibling": "node_83_1563669209279"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "El tratamiento para un Hematoma es:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_75_1563669209273",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_84_1563669209279"
+      },
+      "conditions": "#Hematoma",
+      "dialog_node": "node_102_1563669209280",
+      "previous_sibling": "node_101_1563669209280"
+    },
+    {
+      "type": "standard",
+      "title": "Hemorragia",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Lava tus manos con solución antiséptica o jabón. Si es posible usa guantes de látex."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Coge gasas, colócalas sobre la herida y presiona fuerte. Si no tienes gasas a mano puedes usar cualquier textil lo más limpio posible: ropa, trapo, pañuelo... Nunca retires ese apósito ya que sobre él se van formando coágulos que van taponando la herida y si lo quitamos volvemos a abrirla. Si se empapa mucho sigue poniendo más apósitos encima. Si es una herida muy grande puedes rellenarla con gasas y luego hacer la presión. Presiona al menos durante diez minutos con ambas manos. Si la hemorragia se controla puedes retirar tus manos y realizar un vendaje compresivo."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "En casos de hipotermia el tiempo de coagulación se alarga mucho más de 10 minutos. Y en personas que estén tomando anti-coagulantes puede que este método no cohíba la hemorragia y deberemos presionar hasta que vengan las asistencias o realizar un torniquete si la herida es en una extremidad. "
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "¿Te puedo ayudar con algo mas?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_75_1563669209273",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_75_1563669209273"
+      },
+      "dialog_node": "node_85_1563669209279",
+      "previous_sibling": "node_84_1563669209279"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "El tratamiento para una Amputación es :"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_75_1563669209273",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_76_1563669209279"
+      },
+      "conditions": "#Amputación && ( @Partes_del_cuerpo:pierna || @Partes_del_cuerpo:brazo)",
+      "dialog_node": "node_96_1563669209280",
+      "previous_sibling": "node_88_1563669209280"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Debes mantener la calma y"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_75_1563669209273",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_82_1563669209279"
+      },
+      "conditions": "#Atrapado_y_herido || #Gasolina_u_otros_combustibles",
+      "dialog_node": "node_98_1563669209280",
+      "previous_sibling": "node_97_1563669209280"
+    },
+    {
+      "type": "standard",
+      "title": "Pulso Cardiaco",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "te informo que puede ser medido en diferentes partes del cuerpo como lo son cuello o muñecas, ubicando tus dedos indice y corazón sobre estos. Regresemos al RCP."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_75_1563669209273",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_89_1563669209280"
+      },
+      "dialog_node": "node_87_1563669209279",
+      "previous_sibling": "node_86_1563669209279"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para tomar el pulso:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_75_1563669209273",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_87_1563669209279"
+      },
+      "conditions": "#Tomar_el_Pulso",
+      "dialog_node": "node_8_1563683877486",
+      "previous_sibling": "node_104_1563669209280"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "El tratamiento para una Convulsion es:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_75_1563669209273",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_83_1563669209279"
+      },
+      "conditions": "#Convulsiones",
+      "dialog_node": "node_99_1563669209280",
+      "previous_sibling": "node_98_1563669209280"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Iniciemos un diagnostico:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_75_1563669209273",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_88_1563669209280"
+      },
+      "conditions": "#RCP",
+      "dialog_node": "node_101_1563669209280",
+      "previous_sibling": "node_100_1563669209280"
+    },
+    {
+      "type": "standard",
+      "title": "Aplastamiento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Si la persona esta consiente intente retirar el objeto que lo presiona, si no esta consiente o siente demasiado dolor al mover el objeto que lo presiona evite  mover mas el objeto para evitar mas daños en la persona.   "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "¿Fue posible retirar el objeto?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_75_1563669209273",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_79_1563669209279"
+      },
+      "dialog_node": "node_78_1563669209279",
+      "previous_sibling": "node_77_1563669209279"
+    },
+    {
+      "type": "standard",
+      "title": "Convulsiones",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No trate de sujetar a la persona o evitar que se mueva. llame al centros de salud (123) si ocurre algo de lo siguiente:\n\nLa convulsión dura más de 5 minutos.\nLa persona tiene otra convulsión poco después de la primera.\nLa persona se lesiona durante la convulsión.\nLa convulsión se presenta cuando la persona está en el agua.\nLa persona tiene otra afección como diabetes, enfermedad cardíaca o está embarazada."
+              },
+              {
+                "text": "Con cuidado recueste a la persona en el piso.\nVoltee a la persona suavemente hacia un lado. Esto la ayudará a respirar.\nRetire del área alrededor de la persona los objetos duros o filosos para prevenir lesiones.\nPonga la cabeza de la persona sobre algo suave y plano, como una chaqueta doblada.\nSi tiene anteojos, quíteselos.\nSuéltele la corbata o cualquier cosa que tenga alrededor del cuello que pueda dificultar su respiración.\nTome el tiempo que dure la convulsión. "
+              },
+              {
+                "text": "¿Le puedo ayudar en algo mas?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_75_1563669209273",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_75_1563669209273"
+      },
+      "dialog_node": "node_83_1563669209279",
+      "previous_sibling": "node_82_1563669209279"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Espere... :"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_75_1563669209273",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_86_1563669209279"
+      },
+      "conditions": "#No_especifica_nada",
+      "dialog_node": "node_104_1563669209280",
+      "previous_sibling": "node_103_1563669209280"
+    },
+    {
+      "type": "standard",
+      "title": "Amputación sencilla",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "si te encuentras con una amputación de un dedo, una mano, un pie... debes saber que hay una forma de mantener ese miembro \"vivo\" para después poder reimplantarlo en la persona. Aunque no sea reimplantable, siempre lo podrán usar en el hospital para la reconstrucción de la zona.\n\nDebes coger el miembro, envolverlo en un paño limpio y a su vez meterlo en una bolsa y cerrarla bien. Todo ello lo debes introducir en un recipiente con agua y hielo o hielo directamente (lo ideal es una temperatura de 4ºC)."
+              },
+              {
+                "text": "¿Te puedo ayudar con algo mas?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_75_1563669209273",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_75_1563669209273"
+      },
+      "dialog_node": "node_77_1563669209279",
+      "previous_sibling": "node_76_1563669209279"
+    },
+    {
+      "type": "standard",
+      "title": "RCP",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No hay problema primero que todo acueste a la persona boca arriba protegiendo su cabeza, verifique el pulso y respiración  (¿el pecho se eleva?), si no respira (incline suavemente la cabeza) verifique que nada obstruya las vías respiratorias. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "¿continuamos o te enseño a tomar el pulso?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_75_1563669209273",
+      "metadata": {},
+      "dialog_node": "node_88_1563669209280",
+      "previous_sibling": "node_87_1563669209279"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "El tratamiento para una Amputación es sencilla es :"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_75_1563669209273",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_77_1563669209279"
+      },
+      "conditions": "#Amputación && ( @Partes_del_cuerpo:pie || @Partes_del_cuerpo:dedo || @Partes_del_cuerpo:mano)",
+      "dialog_node": "node_103_1563669209280",
+      "previous_sibling": "node_102_1563669209280"
+    },
+    {
+      "type": "standard",
+      "title": "Amputación Extremidad",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Haremos un torniquete, necesitarás una banda de unos 5 centímetros de ancho y al menos medio metro de largo, algo más si tienes que colocarlo en el muslo. Una corbata sería un ejemplo ideal, pero te puede servir un trapo, una camisa, una correa de tela, una toalla... pero nunca un cordón o un cable. También es necesario un objeto tensor fuerte y largo, no sirve un bolígrafo ni un lápiz ya que se partirán."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Los pasos a seguir son los siguientes:                                                                             1. 1. Quita o corta la ropa para ver bien la herida.\n2. Coloca la banda unos 5 centímetros por encima de la herida, pero nunca sobre el codo o la rodilla.\n3. Haz una o dos vueltas y un nudo simple.\n4. Coloca el tensor con un nudo doble.\n5. Gira hasta que la hemorragia cese y desaparezca el pulso tras el torniquete. Aunque ocasione mucho dolor, no debes aflojarlo y no aprietes más de lo necesario.\n6. Fija el tensor para que no se afloje el torniquete.\n7. Anota la hora de colocación.\n8. No lo aflojes ni lo retires hasta aunque lleguen a un hospital. Lo ideal es que reciba ayuda especializada antes de las dos horas tras su colocación."
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Puedo ayudarte en algo más?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_75_1563669209273",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_75_1563669209273"
+      },
+      "dialog_node": "node_76_1563669209279"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1563672253242",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1563646079569"
+      },
+      "conditions": "@Respuesta_afirmativa_o_negativa:no",
+      "dialog_node": "node_6_1563672313349",
+      "previous_sibling": "node_5_1563728041308"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Me alegra que solo sea una prueba."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1563672253242",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1563726819959"
+      },
+      "conditions": "#Info_del_asistente",
+      "dialog_node": "node_5_1563728041308",
+      "previous_sibling": "node_5_1563672280620"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Emergencias/Ambulancias 123,  Policía Nacional 112, Defensa civil 144. Te recomiendo mantener la calma. No olvides informar cuantas personas son las que necesitan ayuda y  el lugar del accidente. Luego de llamar dime en que te puedo ayudar."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1563672253242",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1563646079569"
+      },
+      "conditions": "@Respuesta_afirmativa_o_negativa:Si || #Numeros_de_emergencia",
+      "dialog_node": "node_5_1563672280620"
+    },
+    {
+      "type": "standard",
+      "title": "Nodo Madre S",
+      "output": {},
+      "parent": "node_22_1563648224415",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Amputación || #Aplastamiento || #Atrapado_y_herido || #Convulsiones || #Gasolina_u_otros_combustibles || #Hemorragia || #Hematoma || #RCP || #Tomar_el_Pulso || #Fin_de_la_Ayuda",
+      "dialog_node": "node_23_1563648306388",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "standard",
+      "title": "Nodo Madre B",
+      "output": {},
+      "parent": "node_21_1563648220752",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Amputación || #Aplastamiento || #Atrapado_y_herido || #Convulsiones || #Gasolina_u_otros_combustibles || #Hemorragia || #Hematoma || #RCP || #Tomar_el_Pulso || #Fin_de_la_Ayuda",
+      "dialog_node": "node_75_1563669209273"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Primero que todo mantén la calma."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Dime, tienes un botiquín?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_4_1563646212583"
+      },
+      "conditions": "#Ayuda",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1563646079569",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1563726819959"
+    },
+    {
+      "type": "standard",
+      "title": "Sin Botiquín",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Dime que ocurre."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_23_1563648306388"
+      },
+      "dialog_node": "node_12_1563646628354",
+      "previous_sibling": "node_2_1563646079569"
+    },
+    {
+      "type": "standard",
+      "title": "Botiquín",
+      "output": {},
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@Respuesta_afirmativa_o_negativa",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_11_1563646601610",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_12_1563646628354"
+    },
+    {
+      "type": "folder",
+      "title": "W.Botiquín",
+      "metadata": {},
+      "dialog_node": "node_20_1563648021716",
+      "previous_sibling": "node_11_1563646601610"
+    },
+    {
+      "type": "folder",
+      "title": "Botiquín",
+      "metadata": {},
+      "dialog_node": "node_21_1563648220752",
+      "previous_sibling": "node_20_1563648021716"
+    },
+    {
+      "type": "standard",
+      "title": "Info del Asistente",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Soy el Asistente W. Angel, soy un asistente virtual diseñado gracias a la tecnologías de IBM Cloud, aún me encuentro en desarrollo pero mi propósito es ayudar a todo aquel que requiera conocimientos sobre primeros auxilios luego de desastres naturales. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Puedes mandarme notas de voz, si no puedes escribir.  Quieres iniciar una prueba de mi servicio?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_2_1563727163513"
+      },
+      "conditions": "#Info_del_asistente",
+      "dialog_node": "node_1_1563726819959",
+      "previous_sibling": "Bienvenido"
+    },
+    {
+      "type": "standard",
+      "title": "Fin de Conversación",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No ha sido nada, espero ahora estén bien."
+              },
+              {
+                "text": "Ha sido un placer el ser de ayuda."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {},
+      "dialog_node": "node_59_1563650318631",
+      "previous_sibling": "node_22_1563648224415"
+    },
+    {
+      "type": "standard",
+      "title": "En otras cosas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No le he entendido. Intente reformular la consulta."
+              },
+              {
+                "text": "¿Puede expresarse con otras palabras? No le he entendido."
+              },
+              {
+                "text": "No entendí el significado."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "En otras cosas",
+      "previous_sibling": "node_59_1563650318631"
+    },
+    {
+      "type": "folder",
+      "title": "Sin Botiquín",
+      "metadata": {},
+      "dialog_node": "node_22_1563648224415",
+      "previous_sibling": "node_21_1563648220752"
+    },
+    {
+      "type": "standard",
+      "title": "Bienvenido",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Este es el servicio de asistencia W Angel estoy dispuesto a ayudarte a dar primeros auxilios. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Antes de iniciar recuerda que tu seguridad es primero. Proteja y revise con atención la zona donde vas a ayudar. Si es posible da aviso a los servicios sanitarios médico, ambulancia u otro de la existencia del accidente, y así activar el Sistema de Emergencia. Ahora estas listo para empezar a socorrer en espera de ayuda."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Si gustas te puedo dar los números de emergencia."
+              },
+              {
+                "text": "¿Te doy los números de emergencia?"
+              },
+              {
+                "text": "¿Puedo darte los números de emergencia?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_4_1563672253242"
+      },
+      "conditions": "welcome || #Saludos",
+      "dialog_node": "Bienvenido"
+    }
+  ],
+  "workspace_id": "1b6a1bc8-a3cd-4d31-a51b-62d808ab0591",
+  "counterexamples": [
+    {
+      "text": "si"
+    }
+  ],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    }
+  },
+  "learning_opt_out": false,
+  "status": "Available"
+}
