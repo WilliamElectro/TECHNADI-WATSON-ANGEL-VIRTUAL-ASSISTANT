@@ -44,3 +44,8 @@ La combinación de herramientas existentes y de gran uso como Messenger permite 
 Se crea un flujo que permita integrar servicios provenientes de diversas fuentes, este blockchain conecta nuestro flujo de Node-RED que integra los sirvicios de Watson Assistant, TTS y STT con el ChatBot en Facebook Messenger a través de ChatFuel.
 
 <img src="https://raw.github.com/WilliamElectro/TECHNADI-WATSON-ANGEL-VIRTUAL-ASSISTANT/master/flujo.PNG"/>
+
+El flujo recibe un enlace de messenger, se convierte a WAV, se envía a STT para su transcripción y se envía a Watson Assistant. Con la respuesta de Watson Assistant, use TTS para convertirlo a audio, convertir a MP3, almacenar en una sesión variable global y enviar un enlace a Facebook Messenger. Este flujo utiliza el nodo ffmpeg para convertir audio. Este flujo recibe el nombre y el apellido de Facebook y se envía al contexto dentro de WA.
+
+Luego, se deben crear y sincronizar los servicios de IBM CLOUD (Watson Assistant, TTS y SST)[Link del skill utilizado: ] con el flujo creado (Link para cargar el flujo en NODE-RED: ), esto se hace a través de las credenciales de cada API
+
