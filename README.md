@@ -1,7 +1,5 @@
 # TECHNADI: WATSON ANGEL-VIRTUAL ASSISTANT
-https://raw.githubusercontent.com/WilliamElectro/TECHNADI-WATSON-ANGEL-VIRTUAL-ASSISTANT/blob/master/proyecto.png
-
-https://raw.githubusercontent.com/parzibyte/WaterPy/master/assets/ImagenV1.png
+https://raw.githubusercontent.com/WilliamElectro/TECHNADI-WATSON-ANGEL-VIRTUAL-ASSISTANT/master/proyecto.png
 
 # I. INTRODUCCIÓN
 Descripción de la problemática: 
