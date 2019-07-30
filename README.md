@@ -38,3 +38,9 @@ La combinación de herramientas existentes y de gran uso como Messenger permite 
 10.	https://cloud.ibm.com/apidocs/text-to-speech
 11.	https://nodered.org/
 12.	https://dashboard.chatfuel.com/#/bots
+
+
+# CÓMO SE HIZO
+Se crea un flujo que permita integrar servicios provenientes de diversas fuentes, este blockchain conecta nuestro flujo de Node-RED que integra los sirvicios de Watson Assistant, TTS y STT con el ChatBot en Facebook Messenger a través de ChatFuel.
+
+<img src="https://raw.github.com/WilliamElectro/TECHNADI-WATSON-ANGEL-VIRTUAL-ASSISTANT/master/flujo.PNG"/>
