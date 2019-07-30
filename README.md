@@ -12,7 +12,7 @@ SKILL: https://github.com/WilliamElectro/TECHNADI-WATSON-ANGEL-VIRTUAL-ASSISTANT
 NODE-RED: https://github.com/WilliamElectro/TECHNADI-WATSON-ANGEL-VIRTUAL-ASSISTANT/blob/master/flows.json
 
 # VIDEO 
-[(https://raw.github.com/GabLeRoux/WebMole/master/ressources/WebMole_Youtube_Video.png)](https://www.youtube.com/watch?v=6NnPdMgFqPc)
+[![ScreenShot](https://raw.githubusercontent.com/WilliamElectro/TECHNADI-WATSON-ANGEL-VIRTUAL-ASSISTANT/master/9.png)](https://www.youtube.com/watch?v=6NnPdMgFqPc)
 
 https://www.youtube.com/watch?v=6NnPdMgFqPc
 
