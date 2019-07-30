@@ -49,5 +49,5 @@ El flujo recibe un enlace de messenger, se convierte a WAV, se envía a STT para
 
 Luego, se deben crear y sincronizar los servicios de IBM CLOUD (Watson Assistant, TTS y SST)(Link del skill utilizado: https://github.com/WilliamElectro/TECHNADI-WATSON-ANGEL-VIRTUAL-ASSISTANT/blob/master/skill-P_Aux.json) con el flujo creado (Link para cargar el flujo en NODE-RED: https://github.com/WilliamElectro/TECHNADI-WATSON-ANGEL-VIRTUAL-ASSISTANT/blob/master/flows.json), esto se hace a través de las credenciales de cada API 
 
-<img scr="https://raw.github.com/WilliamElectro/TECHNADI-WATSON-ANGEL-VIRTUAL-ASSISTANT/blob/master/Credenciales.PNG"/>
+<img scr="https://raw.github.com/WilliamElectro/TECHNADI-WATSON-ANGEL-VIRTUAL-ASSISTANT/master/Credenciales.PNG"/>
 
