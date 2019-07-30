@@ -1,6 +1,26 @@
 # TECHNADI: WATSON ANGEL-VIRTUAL ASSISTANT
+
 <img src="https://raw.githubusercontent.com/WilliamElectro/TECHNADI-WATSON-ANGEL-VIRTUAL-ASSISTANT/master/proyecto.png"/>
 https://www.facebook.com/watsonAngelAssistant/
+
+# DESCRIPCIÓN 
+Durante las catástrofes naturales el número de personas heridas superan por mucho al de personas capacitadas en primeros auxilios y soporte vital básico. Muchas de las muertes son por causa de la inasistencia, la falta de alguien capacitado que pueda brindar la atención necesaria en el menor tiempo posible. Las hemorragias, amputaciones y otras lesiones requieren una acción inmediata, muchas por la gravedad no pueden esperar la llegada de brigadas o incluso el traslado a un hospital.   Watson Angel es un asistente virtual en entrenamiento que implementa la tecnología de Watson Assistant junto node RED y otras más, proporcionando conexión a servicios más tangibles y accesibles como por ejemplo un chat de Messenger, Telegram o WhatsApp. Logrando que todo aquel con acceso a internet pueda ayudar en poco tiempo a quien lo necesite. Cuente o no con un botiquín. En caso de falta de internet se tienen en cuenta dos soluciones futuras: la primera es la implementación de datos móviles que pueden ser brindados por el gobierno tras la catástrofe y la segunda es una vinculación entre nuestra propuesta y la propuesta ganadora del año pasado, Proyect Owl. Aunque son prioridad no solo las personas heridas se verían beneficiadas con la implementación de Watson Angel, las instituciones de salud gozarían de una menor congestión y podrían concentrarse en los casos de mayor gravedad.  Watson Angel es superior a aplicaciones de primeros auxilios. Primero, por ser un asistente virtual que guía paso a paso al usuario. Segundo, identifica el estado del lesionado lo cual podría ser conectado a una base de datos. Tercero, no se encuentra ligado a la descarga de una aplicación extra en el celular o computadora que por motivos de espacio podría ser eliminada por el usuario. Cuarto, no requiere de una búsqueda o lectura extensa para obtener el procedimiento a seguir. Quinto, cuenta con el modo respuesta tanto en versión de texto como de audio. En este momento Watson Angel cuenta con asistencia para hemorragias, hematomas, aplastamientos, amputaciones simples, amputaciones compuestas y convulsiones, de igual manera puede instruir para tomar el pulso, realizar RCP y brindar los números de entidades de emergencia como la policía, bomberos y ambulancias.
+
+# CODIGOS DEL SKILL Y EL FLUJO NODE-RED
+
+SKILL: https://github.com/WilliamElectro/TECHNADI-WATSON-ANGEL-VIRTUAL-ASSISTANT/blob/master/skill-P_Aux.json
+NODE-RED: https://github.com/WilliamElectro/TECHNADI-WATSON-ANGEL-VIRTUAL-ASSISTANT/blob/master/flows.json
+
+# VIDEO 
+[![ScreenShot](https://raw.github.com/GabLeRoux/WebMole/master/ressources/WebMole_Youtube_Video.png)](https://www.youtube.com/watch?v=6NnPdMgFqPc)
+
+https://www.youtube.com/watch?v=6NnPdMgFqPc
+
+# SERVICIOS
+* Watson Assistant
+* Text to Speech
+* Speech to Text
+* Node-RED
 
 # I. INTRODUCCIÓN
 Descripción de la problemática: 
@@ -39,8 +59,6 @@ La combinación de herramientas existentes y de gran uso como Messenger permite 
 11.	https://nodered.org/
 12.	https://dashboard.chatfuel.com/#/bots
 
-# DESCRIPCIÓN 
-Durante las catástrofes naturales el número de personas heridas superan por mucho al de personas capacitadas en primeros auxilios y soporte vital básico. Muchas de las muertes son por causa de la inasistencia, la falta de alguien capacitado que pueda brindar la atención necesaria en el menor tiempo posible. Las hemorragias, amputaciones y otras lesiones requieren una acción inmediata, muchas por la gravedad no pueden esperar la llegada de brigadas o incluso el traslado a un hospital.   Watson Angel es un asistente virtual en entrenamiento que implementa la tecnología de Watson Assistant junto node RED y otras más, proporcionando conexión a servicios más tangibles y accesibles como por ejemplo un chat de Messenger, Telegram o WhatsApp. Logrando que todo aquel con acceso a internet pueda ayudar en poco tiempo a quien lo necesite. Cuente o no con un botiquín. En caso de falta de internet se tienen en cuenta dos soluciones futuras: la primera es la implementación de datos móviles que pueden ser brindados por el gobierno tras la catástrofe y la segunda es una vinculación entre nuestra propuesta y la propuesta ganadora del año pasado, Proyect Owl. Aunque son prioridad no solo las personas heridas se verían beneficiadas con la implementación de Watson Angel, las instituciones de salud gozarían de una menor congestión y podrían concentrarse en los casos de mayor gravedad.  Watson Angel es superior a aplicaciones de primeros auxilios. Primero, por ser un asistente virtual que guía paso a paso al usuario. Segundo, identifica el estado del lesionado lo cual podría ser conectado a una base de datos. Tercero, no se encuentra ligado a la descarga de una aplicación extra en el celular o computadora que por motivos de espacio podría ser eliminada por el usuario. Cuarto, no requiere de una búsqueda o lectura extensa para obtener el procedimiento a seguir. Quinto, cuenta con el modo respuesta tanto en versión de texto como de audio. En este momento Watson Angel cuenta con asistencia para hemorragias, hematomas, aplastamientos, amputaciones simples, amputaciones compuestas y convulsiones, de igual manera puede instruir para tomar el pulso, realizar RCP y brindar los números de entidades de emergencia como la policía, bomberos y ambulancias.
 
 # CÓMO SE HIZO
 Se crea un flujo que permita integrar servicios provenientes de diversas fuentes, este blockchain conecta nuestro flujo de Node-RED que integra los sirvicios de Watson Assistant, TTS y STT con el ChatBot en Facebook Messenger a través de ChatFuel.
